@@ -1,48 +1,46 @@
 .home-page-main-container{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url('../img//rising_sun.jpg');
     background-size: cover;
     perspective: 10px;
     transform-style: preserve-3d;
     transform: translateZ(40px);
-    border-radius: 12px;
+    border-bottom: 12px;
+    border-top: 0px;
+    max-height: 86vh;
+    overflow: hidden;
+    /* background-color: #000; */
+
 }
+
 
 .home-page-main{
     /* border: 1px solid red; */
     width: 95%;
-    height: calc(100% - 80px);
     position: relative;
     left: 2.5%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* background-image: url('../img//rising_sun.jpg');
-    background-size: cover; */
+    background-attachment: fixed;
 
 }
 
 .image{
- 
     width: 50%;
-    /* border: 1px solid pink; */
-
 }
 .image > img {
     width: 92%;
     height: auto;
     object-fit: cover;
-    /* border: 1px solid green; */
 }
 .content{
-    /* border: 1px solid pink; */
     width: 50%;
-    /* height: 100%; */
     padding: 5px;
     position: relative;
-    margin-top: 6%;
+    margin-top: 1%;
    /* top: 29%; */
    /* background-image: url('../img//rising_sun.jpg'); */
 

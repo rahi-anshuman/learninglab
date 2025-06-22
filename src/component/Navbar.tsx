@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import '../static/css/navbar.css'
 import { navbar_logo } from '../utility/image'
 
@@ -10,9 +11,9 @@ function Navbar() {
         </div>
         <div className="navbar-menu">
             <ul className='navbar-menu-grp'>
-                <li className='navbar-menu-grp-item  border-bottom-animation'>Home</li>
-                <li className='navbar-menu-grp-item border-bottom-animation'>Topics</li>
-                <li className='navbar-menu-grp-item border-bottom-animation'>About Us</li>
+                <li className='navbar-menu-grp-item  border-bottom-animation'><NavLink className='navlink' to='/'>Home</NavLink></li>
+                <li className='navbar-menu-grp-item border-bottom-animation'><NavLink  className='navlink' to = '/courses'>Topics</NavLink></li>
+                <li className='navbar-menu-grp-item border-bottom-animation'><NavLink className='navlink' to= '/about-us' >About Us</NavLink></li>
             </ul>
         </div>
     </div>

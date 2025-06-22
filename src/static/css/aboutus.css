@@ -1,6 +1,8 @@
 .aboutus-main{
     background: #262626;
     position: relative;
+    top: var(--top);
+    background-color: #BEB6C1;
 }
 .aboutus-ul{
     display: flex;

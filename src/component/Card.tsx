@@ -1,28 +1,25 @@
+import { useNavigate } from 'react-router';
 import '../static/css/card.css'
 
-function Card() {
+function Card(props) {
+    const navigate = useNavigate();
+   const navigateTocourse = ()=>{
+        console.log(props.title);
+        if(props.title === "Spring-boot1"){
+            navigate(import.meta.env.VITE_SB_CONTENT);
+        }
+    }
     return (
-        <div className='card-main'>
-        <div className="card-container">
-            <div className="card">
-                <div className="slide slide1">
-                    <div className="icon">
-                    <i className="fa fa-user-circle-o" aria-hidden="true"></i>
-                    </div>
+        <div className='card-main' onClick={navigateTocourse}>
+            <div className="card-container">
+                <div className="card-front">
+                    <p className='card-front-img'>{props.image}</p>
+                    <p className='card-front-text'>{props.title}</p>
+                </div>
+                <div className="card-back">
+                    <p className='card-back-text'>{props.description}</p>
                 </div>
             </div>
-        <div className="slide slide2">
-            <div className="content">
-
-                <h3>Hello there</h3>
-                <p>Trust urself and keep going</p>
-            </div>
-
-        </div>
-
-
-
-        </div>
         </div>
     )
 }
