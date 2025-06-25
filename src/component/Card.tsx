@@ -1,13 +1,15 @@
-import { useNavigate } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
 import '../static/css/card.css'
+import redirectApi from '../api/redirectApi';
 
 function Card(props) {
     const navigate = useNavigate();
+    const location = useLocation();
    const navigateTocourse = ()=>{
         console.log(props.title);
-        if(props.title === "Spring-boot1"){
-            navigate(import.meta.env.VITE_SB_CONTENT);
-        }
+        // if(location.pathname.includes('/courses')){
+       const paths : string[] = location.pathname.split("/");
+       navigate( redirectApi(`/${paths[paths.length-1]}`,location.pathname, props.title) )
     }
     return (
         <div className='card-main' onClick={navigateTocourse}>

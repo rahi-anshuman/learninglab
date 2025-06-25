@@ -1,8 +1,9 @@
 .aboutus-main{
     background: #262626;
     position: relative;
-    top: var(--top);
+    /* top: var(--top); */
     background-color: #BEB6C1;
+    top: 10%;
 }
 .aboutus-ul{
     display: flex;

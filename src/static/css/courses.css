@@ -11,6 +11,8 @@
     margin-top: 3.6%;
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    width: 80vw;
+    left: 10vw;
    
     /* min-width: 50vw; */
     /* align-items: center; */

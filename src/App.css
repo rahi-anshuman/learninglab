@@ -28,7 +28,7 @@ body{
   height: var(--height-contnet);
   min-height: auto;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   font-family: Poppins, sans-serif;
   /* background-color: #5E6282; */
   /* border: 1px solid green; */

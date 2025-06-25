@@ -1,0 +1,105 @@
+.content-main{
+     width: 80%;
+    margin-left: 10%; 
+    /* border: 1px solid red; */
+    /* background-color: #b7d1eb; */
+    /* filter: drop-shadow(-1px 1.5px 2px rgb(220, 223, 226) */
+    border-radius: 5px;
+    padding: 3.5%;
+    background-color: rgb(210, 210, 215);
+    border-left-color: rgb(229, 231, 235);
+    border-right-color: rgb(229, 231, 235);
+    border-bottom-width: 8px;
+    
+    
+}
+.content-types{
+    /* margin-top: 2%; */
+}
+.content-type-list{
+    /* margin-top: 1%; */
+    width: 100%;
+    
+}
+.content-type-list-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 2%;
+    /* border: 1px solid green; */
+    /* word-wrap: break-word;
+     */
+
+}
+.contet-type-title{
+    margin-bottom: 1%;
+    text-transform: capitalize;
+}
+/* .contet-type-title::after{
+    content: ' :';
+} */
+
+.content-type-description{
+    /* border: 1px solid green; */
+    
+    letter-spacing: 0.5px;
+    line-height: 1.6rem;
+    /* text-wrap: pretty; */
+    margin-bottom: 1%;
+    text-align: start;
+} 
+
+/* .content-type-description{
+    letter-spacing: 0.5px;
+    line-height: 1.6rem;
+    margin-bottom: 1%;
+} */
+.formatted-description{
+    font-size: 0.98rem;
+    text-wrap: inherit;
+}
+
+.code{
+    /* background-color: aquamarine; */
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    padding: 3.5%;
+    background-color: rgb(245, 245, 250);
+    border-left-color: rgb(229, 231, 235);
+    border-right-color: rgb(229, 231, 235);
+    border-bottom-width: 8px;
+    border-bottom-color: rgb(151, 152, 153);
+    filter: drop-shadow(-1px 1.5px 2px rgb(220, 223, 226) );
+    text-wrap:  pretty;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    word-wrap: break-word;
+    text-align: start;
+    padding-left: 7%;
+}
+
+
+.subheading-text{
+    font-weight: 600;
+    margin-top: 2%;
+    text-align: start;
+}
+.content-type-syntax{
+    /* width: 100%; */
+    text-align: start;
+   
+}
+.content-type-image{
+    /* border: 1px solid red; */
+    /* object-fit: contain; */
+
+}
+.content-type-image img{
+    object-fit: cover;
+    max-width: 75%;
+    max-height: 80%;
+    object-fit: cover;
+    transform: scale(0.9);
+}
+
