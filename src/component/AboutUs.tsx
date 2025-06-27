@@ -1,4 +1,3 @@
-import React from 'react'
 import '../static/css/aboutus.css'
 function AboutUs() {
     return (

@@ -1,12 +1,12 @@
 // npm create vite@latest
 
 
-{
+// {
 
-    "title":"css is responsible for how your website will look, how to style website and hoe your website will be formatted"
+//     "title":"css is responsible for how your website will look, how to style website and hoe your website will be formatted"
 
-}
-{
+// }
+// {
 //     Types of selector in CSS
 //     1. Simple Selector
 //         a. Element Selector - e.g body, p, div etc

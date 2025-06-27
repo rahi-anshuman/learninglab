@@ -1,8 +1,9 @@
 import { useLocation, useNavigate } from 'react-router';
 import '../static/css/card.css'
 import redirectApi from '../api/redirectApi';
+import type coursesFormat  from '../contentData/dataFormat/coursesFormat'
 
-function Card(props) {
+function Card(props:coursesFormat) {
     const navigate = useNavigate();
     const location = useLocation();
    const navigateTocourse = ()=>{

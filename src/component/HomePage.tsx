@@ -1,10 +1,4 @@
 import '../static/css/homePage.css'
-
-
-
-import React from 'react'
-
-
 import {landing_page} from '../utility/image'
 
 function HomePage() {
