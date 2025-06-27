@@ -65,24 +65,24 @@ export const annotationData : contentFomat[] = [
 
     },
     {
-        "description":"By default spring scans the package in which main class is there , it will scan all the package at this level and create a bean.In order to change this package to scan or if we want to add other package also to scan for bean  we can use @ComponentScan.",
-        "code":"1. using basePacakage as a parameter in main class \n@SpringAnnotation \n@ComponentScan(basePackage = {\"com.primaarypackage.main_package\",\"com.primaarypackage.main_package2\"})\n  public class SpringSecurityDbApplication {\n    public void run(String... rgs) throws Exception {\n		// TODO Auto-generated method stub\n}\n}\n2. using seperate class other than main class\nNote: ComponentScan should be used along with @Configuration\n\n@Configuration\n@ComponentScan(basePackage = {\"com.primaarypackage.main_package\",\"com.primaarypackage.main_package2\"})\npublic class controllerCLass {\n    \n}"
+        description:"By default spring scans the package in which main class is there , it will scan all the package at this level and create a bean.In order to change this package to scan or if we want to add other package also to scan for bean  we can use @ComponentScan.",
+        code:"1. using basePacakage as a parameter in main class \n@SpringAnnotation \n@ComponentScan(basePackage = {\"com.primaarypackage.main_package\",\"com.primaarypackage.main_package2\"})\n  public class SpringSecurityDbApplication {\n    public void run(String... rgs) throws Exception {\n		// TODO Auto-generated method stub\n}\n}\n2. using seperate class other than main class\nNote: ComponentScan should be used along with @Configuration\n\n@Configuration\n@ComponentScan(basePackage = {\"com.primaarypackage.main_package\",\"com.primaarypackage.main_package2\"})\npublic class controllerCLass {\n    \n}"
     },
     {
-        "description":"If you want to remove some of class from spring bean creation use the below excludeFilter in @ComponentScan below is the sample annotation.",
-        "syntax":"@ComponentScan(\n    basePackage ={\"com.primaarypackage.main_package\"}, \n        excludeFilter = @ComponentSacn.Filter(\n            type = FilterType.Assignaable_type, class = {classname.class})\n)"
+        description:"If you want to remove some of class from spring bean creation use the below excludeFilter in @ComponentScan below is the sample annotation.",
+        syntax:"@ComponentScan(\n    basePackage ={\"com.primaarypackage.main_package\"}, \n        excludeFilter = @ComponentSacn.Filter(\n            type = FilterType.Assignaable_type, class = {classname.class})\n)"
     }
 
 ]
 
-export const aop =[
+// export const aop =[
     
 
    
     
         
         
-    ]
+//     ]
 
 
 

@@ -58,6 +58,7 @@
 .formatted-description{
     font-size: 0.98rem;
     text-wrap: inherit;
+    text-align: start;
 }
 
 .code{
@@ -74,7 +75,7 @@
     text-wrap:  pretty;
     margin-top: 1%;
     margin-bottom: 4%;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     text-align: start;
     padding-left: 7%;
 }

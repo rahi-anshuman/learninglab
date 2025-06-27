@@ -2,14 +2,13 @@ import type coursesFormat  from '../dataFormat/coursesFormat'
 
 export const springboot_topics : coursesFormat[] = [
     { title : "basics", image : "dummy", description : "Build UI using components."},
-    { title : "annotation", image : "dumy2" , description : "Most comonly used annotation."},
     { title : "beans", image : "Dummy 3" , description : "More about Beans."},
-    { title : "spring security", image : "Dummy 3" , description : "Java framework for rapid development."},
-    { title : "basics", image : "dummy", description : "Build UI using components."},
     { title : "annotation", image : "dumy2" , description : "Most comonly used annotation."},
-    { title : "beans", image : "Dummy 3" , description : "More about Beans."},
-    { title : "spring security", image : "Dummy 3" , description : "Java framework for rapid development."}
-    
+    { title : "primary-qualifier", image : "Dummy 3" , description : "Aspect of Programming. Handles the logic with is apart from business logic."},
+    { title : "conditional-on-property", image : "Dummy 3" , description : "Aspect of Programming. Handles the logic with is apart from business logic."},
+    { title : "aop", image : "Dummy 3" , description : "Aspect of Programming. Handles the logic with is apart from business logic."},
+    { title : "cache", image : "dummy", description : "Build UI using components."},
+    { title : "spring-security", image : "Dummy 3" , description : "Java framework for rapid development."},
     
 ]
 
