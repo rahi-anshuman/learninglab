@@ -11,9 +11,9 @@ function Navbar() {
         </div>
         <div className="navbar-menu">
             <ul className='navbar-menu-grp'>
-                <li className='navbar-menu-grp-item  border-bottom-animation'><NavLink className='navlink' to='/'>Home</NavLink></li>
-                <li className='navbar-menu-grp-item border-bottom-animation'><NavLink  className='navlink' to = '/courses'>Topics</NavLink></li>
-                <li className='navbar-menu-grp-item border-bottom-animation'><NavLink className='navlink' to= '/about-us' >About Us</NavLink></li>
+                <li className='navbar-menu-grp-item  border-bottom-animation'><NavLink className='navlink' to='/learninglab'>Home</NavLink></li>
+                <li className='navbar-menu-grp-item border-bottom-animation'><NavLink  className='navlink' to = '/learninglab/courses'>Topics</NavLink></li>
+                <li className='navbar-menu-grp-item border-bottom-animation'><NavLink className='navlink' to= '/learninglab/about-us' >About Us</NavLink></li>
             </ul>
         </div>
     </div>

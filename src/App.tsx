@@ -13,12 +13,12 @@ function App() {
     <div className="container">
       <Navbar />
       <Routes>
-        <Route path='/learniglab' element={<MainComponent />}>
+        <Route path='/learninglab' element={<MainComponent />}>
           <Route index element={<HomePage />} />
-          <Route path='/courses' element={<Courses />} />
-          <Route path='/about-us' element={<AboutUs />} />
-          <Route path='/spring-boot/content' element={<Courses />} />
-          <Route path='/spring-boot/content/:id' element={<CourseContent />} />
+          <Route path='/learninglab/courses' element={<Courses />} />
+          <Route path='/learninglab/about-us' element={<AboutUs />} />
+          <Route path='/learninglab/spring-boot/content' element={<Courses />} />
+          <Route path='/learninglab/spring-boot/content/:id' element={<CourseContent />} />
         </Route>
       </Routes>
     </div>

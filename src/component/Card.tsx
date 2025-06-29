@@ -8,8 +8,10 @@ function Card(props:coursesFormat) {
     const location = useLocation();
    const navigateTocourse = ()=>{
         console.log(props.title);
+        console.log(location.pathname)
         // if(location.pathname.includes('/courses')){
        const paths : string[] = location.pathname.split("/");
+       console.log(paths)
        navigate( redirectApi(`/${paths[paths.length-1]}`,location.pathname, props.title) )
     }
     return (

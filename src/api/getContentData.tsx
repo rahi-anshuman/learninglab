@@ -5,6 +5,7 @@ import { cache } from "../contentData/spring-boot/cache";
 import { primary_qualifier } from "../contentData/spring-boot/primary-qualifier";
 import { aop } from "../contentData/spring-boot/aop"
 import { beans } from "../contentData/spring-boot/beans";
+import { profiling } from "../contentData/spring-boot/profiling";
 import type contentFomat from '../contentData/dataFormat/contentFomat'
 
 
@@ -34,6 +35,8 @@ export default function getContentData(pathname: string) {
                                 return cache as contentFomat[];
                         case "primary-qualifier":
                                 return primary_qualifier as contentFomat[];
+                        case "profiling":
+                                return profiling as contentFomat[];
                         default:
                                 return [{ title: "page not found" }] as contentFomat[];
 

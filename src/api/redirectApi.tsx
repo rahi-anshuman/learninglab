@@ -5,6 +5,7 @@ export default function  redirectApi(path:string ,pathname:string, title:string)
 
     switch (path) {
         case "/courses":
+          console.log(import.meta.env.VITE_COURSE_CONTENT.replace(":course",title))
           return  import.meta.env.VITE_COURSE_CONTENT.replace(":course",title);
         
         case "/content":

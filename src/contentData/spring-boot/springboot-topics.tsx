@@ -6,6 +6,7 @@ export const springboot_topics : coursesFormat[] = [
     { title : "annotation", image : "dumy2" , description : "Most comonly used annotation."},
     { title : "primary-qualifier", image : "Dummy 3" , description : "Aspect of Programming. Handles the logic with is apart from business logic."},
     { title : "conditional-on-property", image : "Dummy 3" , description : "Aspect of Programming. Handles the logic with is apart from business logic."},
+    { title : "profiling", image : "Dummy 3" , description : "Java framework for rapid development." },
     { title : "aop", image : "Dummy 3" , description : "Aspect of Programming. Handles the logic with is apart from business logic."},
     { title : "cache", image : "dummy", description : "Build UI using components."},
     { title : "spring-security", image : "Dummy 3" , description : "Java framework for rapid development."},
